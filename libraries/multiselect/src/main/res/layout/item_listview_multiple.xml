@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical"
+
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:background="#eee"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:id="@+id/shiftView">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:id="@+id/textSeparator"
+            android:text="test"
+            android:textAllCaps="true"
+            android:textSize="13sp"
+            android:layout_toLeftOf="@+id/checkboxSelectAllShift"/>
+
+        <CheckBox
+            android:id="@+id/checkboxSelectAllShift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:theme="@style/BrandedCheckBox"
+            android:clickable="false" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/item_divider_without_padding"></include>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="15dp"
+        >
+
+        <TextView
+            android:id="@+id/alertTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/alertCheckbox"
+            android:text="Item Name"
+            android:textColor="@color/darkgrey"
+            android:textSize="15sp"/>
+
+        <CheckBox
+            android:id="@+id/alertCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:theme="@style/BrandedCheckBox"
+            android:clickable="false" />
+
+    </RelativeLayout>
+
+</LinearLayout>

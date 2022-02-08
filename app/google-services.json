@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "538004956687",
+    "project_id": "smart-trade-school",
+    "storage_bucket": "smart-trade-school.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538004956687:android:fd2a6cba765dd47467257a",
+        "android_client_info": {
+          "package_name": "com.smarttradeschool.in"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538004956687-jjskgfsvv81j12h1sfiec8udp0hq053h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvYn5yWdu00aL_i9AKRO5PJW6msZVYNrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538004956687-jjskgfsvv81j12h1sfiec8udp0hq053h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

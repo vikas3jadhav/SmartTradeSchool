@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ProfileEditActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile Edit"
+            android:textSize="22sp"
+            android:textColor="#1a051d"
+            android:fontFamily="@font/pt_sans_bold"/>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="20dp"
+                android:text="Fullname :"
+                android:textSize="13sp"
+                android:textColor="@color/red"/>
+
+            <EditText
+                android:id="@+id/edit_full_name"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="fullname"
+                android:textColor="#3f3356"
+                android:textSize="15sp"
+                android:paddingStart="16dp"
+                android:paddingTop="13dp"
+                android:paddingBottom="15dp"
+                android:textColorHint="#d0c9d6"
+                android:elevation="7dp"
+                android:background="@drawable/rect_white"
+                android:fontFamily="@font/pt_sans_regular"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="20dp"
+                android:text="Date of birth :"
+                android:textSize="13sp"
+                android:textColor="@color/red"/>
+
+            <EditText
+                android:id="@+id/edit_dob"
+                android:inputType="text"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:hint="D.O.B."
+                android:textColor="#3f3356"
+                android:textSize="15sp"
+                android:paddingStart="16dp"
+                android:paddingTop="13dp"
+                android:paddingBottom="15dp"
+                android:textColorHint="#d0c9d6"
+                android:elevation="7dp"
+                android:background="@drawable/rect_white"
+                android:fontFamily="@font/pt_sans_regular"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="20dp"
+                android:text="Email :"
+                android:textSize="13sp"
+                android:textColor="@color/red"/>
+
+            <EditText
+                android:id="@+id/edit_email"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textColor="#3f3356"
+                android:textSize="15sp"
+                android:paddingStart="16dp"
+                android:paddingTop="13dp"
+                android:paddingBottom="15dp"
+                android:textColorHint="#d0c9d6"
+                android:elevation="7dp"
+                android:background="@drawable/rect_white"
+                android:fontFamily="@font/pt_sans_regular"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="20dp"
+                android:text="Phone No :"
+                android:textSize="13sp"
+                android:textColor="@color/red"/>
+
+            <EditText
+                android:id="@+id/edit_phone_no"
+                android:inputType="phone"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone no"
+                android:textColor="#3f3356"
+                android:textSize="15sp"
+                android:paddingStart="16dp"
+                android:paddingTop="13dp"
+                android:paddingBottom="15dp"
+                android:textColorHint="#d0c9d6"
+                android:elevation="7dp"
+                android:background="@drawable/rect_white"
+                android:fontFamily="@font/pt_sans_regular"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="20dp"
+                android:text="Trading Segment :"
+                android:textSize="13sp"
+                android:textColor="@color/red"/>
+
+            <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:cardview="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                cardview:cardCornerRadius="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                cardview:cardElevation="4dp"
+                cardview:cardPreventCornerOverlap="false"
+                cardview:cardUseCompatPadding="true">
+
+                <Spinner
+                    android:id="@+id/spinner_segment"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center" />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="70dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UPDATE"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:paddingTop="13dp"
+                android:paddingBottom="13dp"
+                android:fontFamily="@font/pt_sans_bold"
+                android:background="@drawable/rect_red"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

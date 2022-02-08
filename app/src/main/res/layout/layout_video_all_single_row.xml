@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="6dp"
+        android:clipToPadding="false"
+        android:paddingBottom="6dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/iv_sketch"
+            android:layout_width="110dp"
+            android:layout_height="84dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/video"
+            app:riv_corner_radius="6dp" />
+
+        <LinearLayout
+            android:id="@+id/layout_details"
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="84dp"
+            android:layout_toRightOf="@+id/iv_sketch"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_topic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pt_sans_bold"
+                android:layout_marginTop="20dp"
+                android:text="Sketch App Masterclass"
+                android:textColor="#273253"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:id="@+id/tv_added_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/pt_sans_regular"
+                android:text="Added Date :"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

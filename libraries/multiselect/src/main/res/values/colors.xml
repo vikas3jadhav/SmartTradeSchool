@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#C44536</color>
+    <color name="colorAccentDark">#b22a1a</color>
+
+    <color name="linered">#e74c3c</color>
+    <color name="lineredDark">#c0392b</color>
+
+    <color name="colorPrimaryy">#ffbf12</color>
+    <color name="colorPrimaryDarky">#f18c16</color>
+
+    <color name="colorPrimaryg">#0F9D58</color>
+    <color name="colorPrimaryDarkg">#0B8043</color>
+    <color name="colorPrimaryg2">#1c844c</color>
+    <color name="colorPrimaryDarkg2">#165C37</color>
+
+    <color name="colorTextDark">#4d4d4d</color>
+
+    <color name="materialblue">#3F51B5</color>
+    <color name="milearthblue">#414c99</color>
+    <color name="milearthblue2">#3c3c7d</color>
+    <color name="milearthblue3">#393185</color>
+
+    <color name="defaultProfileBG">#F5F5F5</color>
+
+    <color name="list_background">#06ACE4</color>
+    <color name="blue">#1589FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="gray">#D1D0CE</color>
+    <color name="background_color">#E1E2E2</color>
+
+    <color name="colorPrimary">#1abc9c</color>
+    <color name="colorPrimaryDark">#008b6e</color>
+    <color name="primary_pressed">#E1E2E2</color>
+    <color name="ripple">#F06292</color>
+    <color name="red">#C44536</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="lightBlue">#ADD8E6</color>
+
+    <color name="text_color">#686868</color>
+    <color name="android_text_color">#747474</color>
+    <color name="darkgrey">#1a1a1a </color>
+    <color name="app_topbar_color">#AAAAAA</color>
+
+    <color name="list_even">#AAAAAA</color>
+    <color name="list_odd">#ffffff</color>
+    <color name="list_selected">#455FB6</color>
+    <color name="selected">#0F9D57</color>
+    <color name="list_header">#99979C</color>
+
+</resources>

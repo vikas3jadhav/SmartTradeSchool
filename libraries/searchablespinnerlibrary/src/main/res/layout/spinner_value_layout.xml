@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#da1717"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/spinnerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/spinnerImages"
+        android:layout_toRightOf="@+id/spinnerImages"
+        android:text="test"
+        android:textColor="#000"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/spinnerImages"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:contentDescription="@string/app_name"/>
+</RelativeLayout>
